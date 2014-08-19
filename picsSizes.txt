@@ -1,0 +1,20 @@
+Loan.html->loan type
+**** Pictures on types of refinancing auto loans ****
+Pixel Height: 360
+Pixel Width: 600
+
+index.html->service-wrapper
+Pixel Height: 64
+Pixel Width: 64
+
+index.html->user-profiles
+Pixel Height: 100
+Pixel Width: 100
+
+logo-> loan company
+Pixel Height: 40
+Pixel Width: 200
+
+Slider-> solid back representing loans-banking etc. white lite blue green nature
+Pixel Height: 480
+Pixel Width: 1,920
