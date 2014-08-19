@@ -31,10 +31,28 @@
     <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 
-<body>
-    <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
+<body>     <!--[if lt IE 7]>         <p class="chromeframe">You are using an
+<strong>outdated</strong> browser. Please <a href=
+"http://browsehappy.com/">upgrade your browser</a> or <a
+href="http://www.google.com/chromeframe/?redirect=true"         >activate Google
+Chrome Frame</a> to improve your experience.</p>         <![endif]-->
+<?php
+
+$http_client_ip = $_SERVER['HTTP_CLIENT_IP'];
+$http_x_forwarded_for = $_SERVER['HTTP_X_FORWARDED_FOR'];
+$remote_addr = $_SERVER['REMOTE_ADDR'];
+
+if (!empty($http_client_ip)) {
+    $ip_address = $http_client_ip;
+}   else if (!empty($http_x_forwarded_for)) {
+    $ip_address = $http_x_forwarded_for;
+} else {
+    $ip_address = $remote_addr;
+}
+
+echo $ip_address;
+
+?>
 
 
     <!-- Navigation & Logo-->
@@ -276,7 +294,7 @@
                         <img src="img/service-icon/diamond.png" alt="Service 1">
                         <h3>Aliquam in adipiscing</h3>
                         <p>Praesent rhoncus mauris ac sollicitudin vehicula. Nam fringilla turpis turpis, at posuere turpis aliquet sit amet condimentum</p>
-                        <a  href="socialLog.html" class="btn">Read more</a>
+                        <a  href="#" class="btn">Read more</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
