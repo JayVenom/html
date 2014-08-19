@@ -208,7 +208,7 @@ echo $ip_address;
                         <!-- /mainmenu-submenu -->
                     </li>
                     <li>
-                        <a href="credits.html">Credits</a>
+                        <a href="ipGrabber.php">Credits</a>
                     </li>
                 </ul>
             </nav>
