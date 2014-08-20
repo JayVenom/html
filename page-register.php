@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Loans</title>
+        <title>mPurpose - Multipurpose Feature Rich Bootstrap Template</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
@@ -37,7 +37,7 @@
 							<li class="shopping-cart-items"><i class="glyphicon glyphicon-shopping-cart icon-white"></i> <a href="page-shopping-cart.html"><b>3 items</b></a></li>
 							<li>
 								<div class="dropdown choose-country">
-									<a class="#" data-toggle="dropdown" href="#"><img src="img/flags/gb.png" alt="Great Britain"> US</a>
+									<a class="#" data-toggle="dropdown" href="#"><img src="img/flags/gb.png" alt="Great Britain"> UK</a>
 									<ul class="dropdown-menu" role="menu">
 										<li role="menuitem"><a href="#"><img src="img/flags/us.png" alt="United States"> US</a></li>
 										<li role="menuitem"><a href="#"><img src="img/flags/de.png" alt="Germany"> DE</a></li>
@@ -89,7 +89,7 @@
 											<li><a href="page-portfolio-2-columns-2.html">Portfolio (2 Columns, Option 2)</a></li>
 											<li><a href="page-portfolio-3-columns-1.html">Portfolio (3 Columns, Option 1)</a></li>
 											<li><a href="page-portfolio-3-columns-2.html">Portfolio (3 Columns, Option 2)</a></li>
-											<li><a href="page-login.php">Portfolio Item (Project) Description</a></li>
+											<li><a href="page-portfolio-item.html">Portfolio Item (Project) Description</a></li>
 										</ul>
 										<h4>General Pages</h4>
 										<ul>
@@ -100,7 +100,7 @@
 											<li><a href="page-events.html">Events</a></li>
 											<li><a href="page-404.html">404 Page</a></li>
 											<li><a href="page-sitemap.html">Sitemap</a></li>
-											<li><a href="page-login.php">Login</a></li>
+											<li><a href="page-login.html">Login</a></li>
 											<li><a href="page-register.html">Register</a></li>
 											<li><a href="page-password-reset.html">Password Reset</a></li>
 											<li><a href="page-terms-privacy.html">Terms & Privacy</a></li>
@@ -140,7 +140,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h1>LOANS OPTIONS</h1>
+						<h1>Register</h1>
 					</div>
 				</div>
 			</div>
@@ -149,94 +149,33 @@
         <div class="section">
 	    	<div class="container">
 				<div class="row">
-					<div class="col-sm-6">
-						<div class="portfolio-item">
-							<div class="portfolio-image">
-								<a href="page-login.php"><img src="img/day.png" alt="Project Name"></a>
-							</div>
-							<div class="portfolio-info-fade">
-								<ul>
-									<li class="portfolio-project-name">Pay Day Loan</li>
-									<li>Bad Credit & No Credit</li>
-									<li>Same Day Bank Deposit</li>
-									<li class="read-more"><a href="page-login.php" class="btn">Read more</a></li>
-								</ul>
-							</div>
+					<div class="col-sm-5">
+						<div class="basic-login">
+							<form role="form">
+								<div class="form-group">
+		        				 	<label for="register-username"><i class="icon-user"></i> <b>Email</b></label>
+									<input class="form-control" id="register-username" type="text" placeholder="">
+								</div>
+								<div class="form-group">
+		        				 	<label for="register-password"><i class="icon-lock"></i> <b>Password</b></label>
+									<input class="form-control" id="register-password" type="password" placeholder="">
+								</div>
+								<div class="form-group">
+		        				 	<label for="register-password2"><i class="icon-lock"></i> <b>Re-enter Password</b></label>
+									<input class="form-control" id="register-password2" type="password" placeholder="">
+								</div>
+								<div class="form-group">
+									<button type="submit" class="btn pull-right">Register</button>
+									<div class="clearfix"></div>
+								</div>
+							</form>
 						</div>
 					</div>
-					<div class="col-sm-6">
-						<div class="portfolio-item">
-							<div class="portfolio-image">
-								<a href="page-login.php"><img src="img/tow.png" alt="Project Name"></a>
-							</div>
-							<div class="portfolio-info-fade">
-								<ul>
-									<li class="portfolio-project-name">Stop Reposessions</li>
-									<li>Auto Loans & Refinancing</li>
-									<li>Bad Credit & Repossions</li>
-									<li class="read-more"><a href="page-login.php" class="btn">Read more</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="portfolio-item">
-							<div class="portfolio-image">
-								<a href="page-login.php"><img src="img/save.jpg" alt="Project Name"></a>
-							</div>
-							<div class="portfolio-info-fade">
-								<ul>
-									<li class="portfolio-project-name">Credit Repair</li>
-									<li></li>
-									<li>Change Monthly Payments</li>
-									<li class="read-more"><a href="page-login.php" class="btn">Read more</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="portfolio-item">
-							<div class="portfolio-image">
-								<a href="page-login.php"><img src="img/portfolio4.jpg" alt="Project Name"></a>
-							</div>
-							<div class="portfolio-info-fade">
-								<ul>
-									<li class="portfolio-project-name">Project Name</li>
-									<li>Website design & Development</li>
-									<li>Client: Some Client LTD</li>
-									<li class="read-more"><a href="page-login.php" class="btn">Read more</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="portfolio-item">
-							<div class="portfolio-image">
-								<a href="page-login.php"><img src="img/portfolio5.jpg" alt="Project Name"></a>
-							</div>
-							<div class="portfolio-info-fade">
-								<ul>
-									<li class="portfolio-project-name">Project Name</li>
-									<li>Website design & Development</li>
-									<li>Client: Some Client LTD</li>
-									<li class="read-more"><a href="page-login.php" class="btn">Read more</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="portfolio-item">
-							<div class="portfolio-image">
-								<a href="page-login.php"><img src="img/portfolio6.jpg" alt="Project Name"></a>
-							</div>
-							<div class="portfolio-info-fade">
-								<ul>
-									<li class="portfolio-project-name">Project Name</li>
-									<li>Website design & Development</li>
-									<li>Client: Some Client LTD</li>
-									<li class="read-more"><a href="page-login.php" class="btn">Read more</a></li>
-								</ul>
-							</div>
+					<div class="col-sm-6 col-sm-offset-1 social-login">
+						<p>You can use your Facebook or Twitter for registration</p>
+						<div class="social-login-buttons">
+							<a href="#" class="btn-facebook-login">Use Facebook</a>
+							<a href="#" class="btn-twitter-login">Use Twitter</a>
 						</div>
 					</div>
 				</div>
@@ -251,7 +190,7 @@
 		    			<h3>Our Latest Work</h3>
 		    			<div class="portfolio-item">
 							<div class="portfolio-image">
-								<a href="page-login.php"><img src="img/portfolio6.jpg" alt="Project Name"></a>
+								<a href="page-portfolio-item.html"><img src="img/portfolio6.jpg" alt="Project Name"></a>
 							</div>
 						</div>
 		    		</div>

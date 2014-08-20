@@ -61,8 +61,6 @@ echo $ip_address;
             <div class="menuextras">
                 <div class="extras">
                     <ul>
-                        <li class="shopping-cart-items"><i class="glyphicon glyphicon-shopping-cart icon-white"></i>  <a href="page-shopping-cart.html"><b>2 items</b></a>
-                        </li>
                         <li>
                             <div class="dropdown choose-country">
                                 <a class="#" data-toggle="dropdown" href="#">
@@ -83,7 +81,7 @@ echo $ip_address;
                                 </ul>
                             </div>
                         </li>
-                        <li><a href="page-login.html">Login</a>
+                        <li><a href="page-login.php">Login</a>
                         </li>
                     </ul>
                 </div>
@@ -91,15 +89,15 @@ echo $ip_address;
             <nav id="mainmenu" class="mainmenu">
                 <ul>
                     <li class="logo-wrapper">
-                        <a href="index.html">
-                            <img src="img/QuickenLoans-Logo-200x40.jpg" alt="Multipurpose Twitter Bootstrap Template">
+                        <a href="index.php">
+                            <img src="img/nf-logo.jpg" alt="Multipurpose Twitter Bootstrap Template">
                         </a>
                     </li>
                     <li class="active">
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                     </li>
                     <li>
-                        <a href="loans.html">Loans</a>
+                        <a href="loans.php">Loans</a>
                     </li>
                     <li class="has-submenu">
                         <a href="#">Pages +</a>
@@ -108,7 +106,7 @@ echo $ip_address;
                                 <div>
                                     <h4>Homepage</h4>
                                     <ul>
-                                        <li><a href="index.html">Homepage (Sample 1)</a>
+                                        <li><a href="index.php">Homepage (Sample 1)</a>
                                         </li>
                                         <li><a href="page-homepage-sample.html">Homepage (Sample 2)</a>
                                         </li>
@@ -286,36 +284,36 @@ echo $ip_address;
     <!-- Press Coverage -->
 
     <!-- Services -->
-    <div class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="service-wrapper">
-                        <img src="img/service-icon/diamond.png" alt="Service 1">
-                        <h3>Aliquam in adipiscing</h3>
-                        <p>Praesent rhoncus mauris ac sollicitudin vehicula. Nam fringilla turpis turpis, at posuere turpis aliquet sit amet condimentum</p>
-                        <a  href="#" class="btn">Read more</a>
+  <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-wrapper">
+                            <img src="img/service-icon/diamond.png" alt="Service 1">
+                            <h3>Aliquam in adipiscing</h3>
+                            <p>Praesent rhoncus mauris ac sollicitudin vehicula. Nam fringilla turpis turpis, at posuere turpis aliquet sit amet condimentum</p>
+                            <a href="#" class="btn">Read more</a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="service-wrapper">
-                        <img src="img/service-icon/ruler.png" alt="Service 2">
-                        <h3>Curabitur mollis</h3>
-                        <p>Suspendisse eget libero mi. Fusce ligula orci, vulputate nec elit ultrices, ornare faucibus orci. Aenean lectus sapien, vehicula</p>
-                        <a href="#" class="btn">Read more</a>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-wrapper">
+                            <img src="img/service-icon/ruler.png" alt="Service 2">
+                            <h3>Curabitur mollis</h3>
+                            <p>Suspendisse eget libero mi. Fusce ligula orci, vulputate nec elit ultrices, ornare faucibus orci. Aenean lectus sapien, vehicula</p>
+                            <a href="#" class="btn">Read more</a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="service-wrapper">
-                        <img src="img/service-icon/box.png" alt="Service 3">
-                        <h3>Vivamus mattis</h3>
-                        <p>Phasellus posuere et nisl ac commodo. Nulla facilisi. Sed tincidunt bibendum cursus. Aenean vulputate aliquam risus rutrum scelerisque</p>
-                        <a href="#" class="btn">Read more</a>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-wrapper">
+                            <img src="img/service-icon/box.png" alt="Service 3">
+                            <h3>Vivamus mattis</h3>
+                            <p>Phasellus posuere et nisl ac commodo. Nulla facilisi. Sed tincidunt bibendum cursus. Aenean vulputate aliquam risus rutrum scelerisque</p>
+                            <a href="#" class="btn">Read more</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     <!-- End Services -->
 
     <!-- Call to Action Bar -->
