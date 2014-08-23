@@ -36,8 +36,9 @@
 "http://browsehappy.com/">upgrade your browser</a> or <a
 href="http://www.google.com/chromeframe/?redirect=true"         >activate Google
 Chrome Frame</a> to improve your experience.</p>         <![endif]-->
-<?php
 
+<?php
+require_once 'login.php';
 $http_client_ip = $_SERVER['HTTP_CLIENT_IP'];
 $http_x_forwarded_for = $_SERVER['HTTP_X_FORWARDED_FOR'];
 $remote_addr = $_SERVER['REMOTE_ADDR'];
@@ -49,11 +50,20 @@ if (!empty($http_client_ip)) {
 } else {
     $ip_address = $remote_addr;
 }
+// comment
+$db_server = mysql_connect($hostname, $username, $password);
+if(!db_server) die ("Unable to connect to database:" . mysql_error());
+mysql_select_db($dbname) or die("Unable to select database" . mysql_error());
 
-echo $ip_address;
+$query = "INSERT INTO locations VALUES('$ip_address');";
 
+$result = mysql_query($query);
+if(!$result) die ("Database access failed:" . mysql_error());
+ 
 ?>
+<script type="text/javascript" charset="utf-8">
 
+</script>
 
     <!-- Navigation & Logo-->
     <div class="mainmenu-wrapper">
