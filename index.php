@@ -37,34 +37,6 @@
 href="http://www.google.com/chromeframe/?redirect=true"         >activate Google
 Chrome Frame</a> to improve your experience.</p>         <![endif]-->
 
-<?php
-require_once 'login.php';
-$http_client_ip = $_SERVER['HTTP_CLIENT_IP'];
-$http_x_forwarded_for = $_SERVER['HTTP_X_FORWARDED_FOR'];
-$remote_addr = $_SERVER['REMOTE_ADDR'];
-
-if (!empty($http_client_ip)) {
-    $ip_address = $http_client_ip;
-}   else if (!empty($http_x_forwarded_for)) {
-    $ip_address = $http_x_forwarded_for;
-} else {
-    $ip_address = $remote_addr;
-}
-// comment
-$db_server = mysql_connect($hostname, $username, $password);
-if(!db_server) die ("Unable to connect to database:" . mysql_error());
-mysql_select_db($dbname) or die("Unable to select database" . mysql_error());
-
-$query = "INSERT INTO locations VALUES('$ip_address');";
-
-$result = mysql_query($query);
-if(!$result) die ("Database access failed:" . mysql_error());
- 
-?>
-<script type="text/javascript" charset="utf-8">
-
-</script>
-
     <!-- Navigation & Logo-->
     <div class="mainmenu-wrapper">
         <div class="container">
@@ -240,21 +212,21 @@ if(!$result) die ("Database access failed:" . mysql_error());
                 <!-- Slide 2 -->
                 <li class="bg3">
                     <!-- Slide Title -->
-                    <h2 class="title">More Shit Goes Here!!</h2>
+                    <h2 class="title">Pay Day Loans</h2>
                     <!-- Slide Text -->
-                    <h3 class="subtitle">Something Loan agreement!</h3>
+                    <h3 class="subtitle">With Valid Checking Account</h3>
                     <!-- Slide Image -->
-                    <img class="slide-img" src="img/homepage-slider/slide2.png" alt="Slide 2" />
+                    <img class="slide-img" src="img/homepage-slider/banner2.jpg" alt="Slide 2" />
                 </li>
                 <!-- End Slide 2 -->
                 <!-- Slide 3 -->
                 <li class="bg1">
                     <!-- Slide Title -->
-                    <h2 class="title">Nothing to Say Here</h2>
+                    <h2 class="title">A+ Credit Repair</h2>
                     <!-- Slide Text -->
-                    <h3 class="subtitle">Hack Break have fun code more shit</h3>
+                    <h2 class="subtitle">Start a New Credit History</h3>
                     <!-- Slide Image -->
-                    <img class="slide-img" src="img/homepage-slider/slide3.png" alt="Slide 3" />
+                    <img class="slide-img" src="img/homepage-slider/7501.jpg" alt="Slide 3" />
                 </li>
                 <!-- End Slide 3 -->
             </ul>
@@ -275,17 +247,17 @@ if(!$result) die ("Database access failed:" . mysql_error());
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <div class="in-press press-wired">
-                        <a href="#">Morbi eleifend congue elit nec sagittis. Praesent aliquam lobortis tellus, nec consequat vitae</a>
+                        <a href="#">Wondeful online service. A startup financing startups</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="in-press press-mashable">
-                        <a href="#">Morbi eleifend congue elit nec sagittis. Praesent aliquam lobortis tellus, nec consequat vitae</a>
+                        <a href="#">About time a legitimate lending company in the Valley.</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="in-press press-techcrunch">
-                        <a href="#">Morbi eleifend congue elit nec sagittis. Praesent aliquam lobortis tellus, nec consequat vitae</a>
+                        <a href="#">Finally and we repeat finally, a real online leanding company</a>
                     </div>
                 </div>
             </div>
@@ -300,24 +272,24 @@ if(!$result) die ("Database access failed:" . mysql_error());
                     <div class="col-md-4 col-sm-6">
                         <div class="service-wrapper">
                             <img src="img/service-icon/diamond.png" alt="Service 1">
-                            <h3>Aliquam in adipiscing</h3>
-                            <p>Praesent rhoncus mauris ac sollicitudin vehicula. Nam fringilla turpis turpis, at posuere turpis aliquet sit amet condimentum</p>
+                            <h3>Personal Loans</h3>
+                            <p>Have that wedding or take that trip. Tailor made plans for the working professional</p>
                             <a href="#" class="btn">Read more</a>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="service-wrapper">
                             <img src="img/service-icon/ruler.png" alt="Service 2">
-                            <h3>Curabitur mollis</h3>
-                            <p>Suspendisse eget libero mi. Fusce ligula orci, vulputate nec elit ultrices, ornare faucibus orci. Aenean lectus sapien, vehicula</p>
+                            <h3>Entrepreneurs</h3>
+                            <p>Start a business or expand an existing one.</p>
                             <a href="#" class="btn">Read more</a>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="service-wrapper">
                             <img src="img/service-icon/box.png" alt="Service 3">
-                            <h3>Vivamus mattis</h3>
-                            <p>Phasellus posuere et nisl ac commodo. Nulla facilisi. Sed tincidunt bibendum cursus. Aenean vulputate aliquam risus rutrum scelerisque</p>
+                            <h3>Stop Evictions & Repossions</h3>
+                            <p>Hard times and need money fast. we have several solutions geared to fix your problem today.</p>
                             <a href="#" class="btn">Read more</a>
                         </div>
                     </div>
@@ -326,7 +298,7 @@ if(!$result) die ("Database access failed:" . mysql_error());
         </div>
     <!-- End Services -->
 
-    <!-- Call to Action Bar -->
+    <!-- Call to Action Bar
     <div class="section section-white">
         <div class="container">
             <div class="row">
@@ -338,7 +310,7 @@ if(!$result) die ("Database access failed:" . mysql_error());
             </div>
         </div>
     </div>
-    <!-- End Call to Action Bar -->
+     End Call to Action Bar -->
 
     <!-- Testimonials -->
     <div class="section">
