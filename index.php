@@ -255,7 +255,7 @@ Chrome Frame</a> to improve your experience.</p>         <![endif]-->
                     <div class="testimonial-bubble">
                         <blockquote>
                             <p class="quote">
-                                "Helped my dream come true of ownimg my own company"
+                                "Helped my dream come true of owning my own company"
                             </p>
                             <cite class="author-info">
                                 - Dafney Stewart,
