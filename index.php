@@ -81,115 +81,7 @@ Chrome Frame</a> to improve your experience.</p>         <![endif]-->
                     <li>
                         <a href="loans.php">Loans</a>
                     </li>
-                    <li class="has-submenu">
-                        <a href="#">Pages +</a>
-                        <div class="mainmenu-submenu">
-                            <div class="mainmenu-submenu-inner">
-                                <div>
-                                    <h4>Homepage</h4>
-                                    <ul>
-                                        <li><a href="index.php">Homepage (Sample 1)</a>
-                                        </li>
-                                        <li><a href="page-homepage-sample.html">Homepage (Sample 2)</a>
-                                        </li>
-                                    </ul>
-                                    <h4>Services & Pricing</h4>
-                                    <ul>
-                                        <li><a href="page-services-1-column.html">Services/Features (Rows)</a>
-                                        </li>
-                                        <li><a href="page-services-3-columns.html">Services/Features (3 Columns)</a>
-                                        </li>
-                                        <li><a href="page-services-4-columns.html">Services/Features (4 Columns)</a>
-                                        </li>
-                                        <li><a href="page-pricing.html">Pricing Table</a>
-                                        </li>
-                                    </ul>
-                                    <h4>Team & Open Vacancies</h4>
-                                    <ul>
-                                        <li><a href="page-team.html">Our Team</a>
-                                        </li>
-                                        <li><a href="page-vacancies.html">Open Vacancies (List)</a>
-                                        </li>
-                                        <li><a href="page-job-details.html">Open Vacancies (Job Details)</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <h4>Our Work (Portfolio)</h4>
-                                    <ul>
-                                        <li><a href="page-portfolio-2-columns-1.html">Portfolio (2 Columns, Option 1)</a>
-                                        </li>
-                                        <li><a href="page-portfolio-2-columns-2.html">Portfolio (2 Columns, Option 2)</a>
-                                        </li>
-                                        <li><a href="page-portfolio-3-columns-1.html">Portfolio (3 Columns, Option 1)</a>
-                                        </li>
-                                        <li><a href="page-portfolio-3-columns-2.html">Portfolio (3 Columns, Option 2)</a>
-                                        </li>
-                                        <li><a href="page-portfolio-item.html">Portfolio Item (Project) Description</a>
-                                        </li>
-                                    </ul>
-                                    <h4>General Pages</h4>
-                                    <ul>
-                                        <li><a href="page-about-us.html">About Us</a>
-                                        </li>
-                                        <li><a href="page-contact-us.html">Contact Us</a>
-                                        </li>
-                                        <li><a href="page-faq.html">Frequently Asked Questions</a>
-                                        </li>
-                                        <li><a href="page-testimonials-clients.html">Testimonials & Clients</a>
-                                        </li>
-                                        <li><a href="page-events.html">Events</a>
-                                        </li>
-                                        <li><a href="page-404.html">404 Page</a>
-                                        </li>
-                                        <li><a href="page-sitemap.html">Sitemap</a>
-                                        </li>
-                                        <li><a href="page-login.html">Login</a>
-                                        </li>
-                                        <li><a href="page-register.html">Register</a>
-                                        </li>
-                                        <li><a href="page-password-reset.html">Password Reset</a>
-                                        </li>
-                                        <li><a href="page-terms-privacy.html">Terms & Privacy</a>
-                                        </li>
-                                        <li><a href="page-coming-soon.html">Coming Soon</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <h4>eShop</h4>
-                                    <ul>
-                                        <li><a href="page-products-3-columns.html">Products listing (3 Columns)</a>
-                                        </li>
-                                        <li><a href="page-products-4-columns.html">Products listing (4 Columns)</a>
-                                        </li>
-                                        <li><a href="page-products-slider.html">Products Slider</a>
-                                        </li>
-                                        <li><a href="page-product-details.html">Product Details</a>
-                                        </li>
-                                        <li><a href="page-shopping-cart.html">Shopping Cart</a>
-                                        </li>
-                                    </ul>
-                                    <h4>Blog</h4>
-                                    <ul>
-                                        <li><a href="page-blog-posts.html">Blog Posts (List)</a>
-                                        </li>
-                                        <li><a href="page-blog-post-right-sidebar.html">Blog Single Post (Right Sidebar)</a>
-                                        </li>
-                                        <li><a href="page-blog-post-left-sidebar.html">Blog Single Post (Left Sidebar)</a>
-                                        </li>
-                                        <li><a href="page-news.html">Latest & Featured News</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- /mainmenu-submenu-inner -->
-                        </div>
-                        <!-- /mainmenu-submenu -->
-                    </li>
-                    <li>
-                        <a href="ipGrabber.php">Credits</a>
-                    </li>
+
                 </ul>
             </nav>
         </div>
@@ -247,17 +139,17 @@ Chrome Frame</a> to improve your experience.</p>         <![endif]-->
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <div class="in-press press-wired">
-                        <a href="#">Wondeful online service. A startup financing startups</a>
+                        <a href="http://www.wired.com/">Wondeful online service. A startup financing startups</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="in-press press-mashable">
-                        <a href="#">About time a legitimate lending company in the Valley.</a>
+                        <a href="http://mashable.com/">About time a legitimate lending company in the Valley.</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="in-press press-techcrunch">
-                        <a href="#">Finally and we repeat finally, a real online leanding company</a>
+                        <a href="http://techcrunch.com/">Finally and we repeat finally, a real online leanding company</a>
                     </div>
                 </div>
             </div>
@@ -274,7 +166,7 @@ Chrome Frame</a> to improve your experience.</p>         <![endif]-->
                             <img src="img/service-icon/diamond.png" alt="Service 1">
                             <h3>Personal Loans</h3>
                             <p>Have that wedding or take that trip. Tailor made plans for the working professional</p>
-                            <a href="#" class="btn">Read more</a>
+                            <a href="page-register.php" class="btn">Read more</a>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
@@ -282,7 +174,7 @@ Chrome Frame</a> to improve your experience.</p>         <![endif]-->
                             <img src="img/service-icon/ruler.png" alt="Service 2">
                             <h3>Entrepreneurs</h3>
                             <p>Start a business or expand an existing one.</p>
-                            <a href="#" class="btn">Read more</a>
+                            <a href="page-register.php" class="btn">Read more</a>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
@@ -290,7 +182,7 @@ Chrome Frame</a> to improve your experience.</p>         <![endif]-->
                             <img src="img/service-icon/box.png" alt="Service 3">
                             <h3>Stop Evictions & Repossions</h3>
                             <p>Hard times and need money fast. we have several solutions geared to fix your problem today.</p>
-                            <a href="#" class="btn">Read more</a>
+                            <a href="page-register.php" class="btn">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -327,12 +219,12 @@ Chrome Frame</a> to improve your experience.</p>         <![endif]-->
                         <blockquote>
                             <!-- Quote -->
                             <p class="quote">
-                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut."
+                                "The Payday loan saved my life and they let me pay it back over three checks. "
                             </p>
                             <!-- Author Info -->
                             <cite class="author-info">
-                                - Name Surname,
-                                <br>Managing Director at <a href="#">Some Company</a>
+                                - Patrick Costello,
+                                <br>Pizza Delivery <a href="#">Anonymous</a>
                             </cite>
                         </blockquote>
                         <div class="sprite arrow-speech-bubble"></div>
@@ -346,11 +238,11 @@ Chrome Frame</a> to improve your experience.</p>         <![endif]-->
                     <div class="testimonial-bubble">
                         <blockquote>
                             <p class="quote">
-                                "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
+                                "Stopped Repossion and finanaced my new car."
                             </p>
                             <cite class="author-info">
-                                - Name Surname,
-                                <br>Managing Director at <a href="#">Some Company</a>
+                                - Alexis Jenkins,
+                                <br>Manager at <a href="http://www.dickssportinggoods.com/">Dicks Sporting Goods</a>
                             </cite>
                         </blockquote>
                         <div class="sprite arrow-speech-bubble"></div>
@@ -363,11 +255,11 @@ Chrome Frame</a> to improve your experience.</p>         <![endif]-->
                     <div class="testimonial-bubble">
                         <blockquote>
                             <p class="quote">
-                                "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                                "Helped my dream come true of ownimg my own company"
                             </p>
                             <cite class="author-info">
-                                - Name Surname,
-                                <br>Managing Director at <a href="#">Some Company</a>
+                                - Dafney Stewart,
+                                <br>Startup Founder at <a href="http://fashionfund.com/">FashionFund.com</a>
                             </cite>
                         </blockquote>
                         <div class="sprite arrow-speech-bubble"></div>
@@ -452,71 +344,34 @@ Chrome Frame</a> to improve your experience.</p>         <![endif]-->
     <!-- End Our Clients -->
 
     <!-- Footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-footer col-md-3 col-xs-6">
-                    <h3>Our Latest Work</h3>
-                    <div class="portfolio-item">
-                        <div class="portfolio-image">
-                            <a href="page-portfolio-item.html">
-                                <img src="img/portfolio6.jpg" alt="Project Name">
-                            </a>
-                        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-footer col-md-4 col-xs-6">
+                        <h3>Contacts</h3>
+                        <p class="contact-us-details">
+                            <b>Address:</b> 123 Fake Street, LN1 2ST, London, United Kingdom<br/>
+                            <b>Phone:</b> +44 123 654321<br/>
+                            <b>Fax:</b> +44 123 654321<br/>
+                            <b>Email:</b> <a href="mailto:getintoutch@yourcompanydomain.com">getintoutch@yourcompanydomain.com</a>
+                        </p>
+                    </div>
+                    <div class="col-footer col-md-2 col-xs-6">
+                        <h3>Stay Connected</h3>
+                        <ul class="footer-stay-connected no-list-style">
+                            <li><a href="#" class="facebook"></a></li>
+                            <li><a href="#" class="twitter"></a></li>
+                            <li><a href="#" class="googleplus"></a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-footer col-md-3 col-xs-6">
-                    <h3>Navigate</h3>
-                    <ul class="no-list-style footer-navigate-section">
-                        <li><a href="page-blog-posts.html">Blog</a>
-                        </li>
-                        <li><a href="page-portfolio-3-columns-2.html">Portfolio</a>
-                        </li>
-                        <li><a href="page-products-3-columns.html">eShop</a>
-                        </li>
-                        <li><a href="page-services-3-columns.html">Services</a>
-                        </li>
-                        <li><a href="page-pricing.html">Pricing</a>
-                        </li>
-                        <li><a href="page-faq.html">FAQ</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-footer col-md-4 col-xs-6">
-                    <h3>Contacts</h3>
-                    <p class="contact-us-details">
-                        <b>Address:</b> 123 Fake Street, LN1 2ST, London, United Kingdom
-                        <br/>
-                        <b>Phone:</b> +44 123 654321
-                        <br/>
-                        <b>Fax:</b> +44 123 654321
-                        <br/>
-                        <b>Email:</b>  <a href="mailto:getintoutch@yourcompanydomain.com">getintoutch@yourcompanydomain.com</a>
-                    </p>
-                </div>
-                <div class="col-footer col-md-2 col-xs-6">
-                    <h3>Stay Connected</h3>
-                    <ul class="footer-stay-connected no-list-style">
-                        <li>
-                            <a href="#" class="facebook"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="twitter"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="googleplus"></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="footer-copyright">&copy; 2014 SomeShitInc. All rights reserved.</div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-copyright">&copy; 2014 CohenBrosInc. All rights reserved.</div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
     <!-- Javascripts -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
