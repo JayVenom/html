@@ -29,28 +29,10 @@
     <link rel="stylesheet" href="css/main.css">
 
     <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    <?php
- require_once 'login.php';
- $http_client_ip = $_SERVER['HTTP_CLIENT_IP'];
- $http_x_forwarded_for = $_SERVER['HTTP_X_FORWARDED_FOR'];
- $remote_addr = $_SERVER['REMOTE_ADDR'];
- if (!empty($http_client_ip)) {
-     $ip_address = $http_client_ip;
- }   else if (!empty($http_x_forwarded_for)) {
-     $ip_address = $http_x_forwarded_for;
- } else {
-     $ip_address = $remote_addr;
- }
-
- $db_server = mysql_connect($hostname, $username, $password);
- if(!db_server) die ("Unable to connect to database:" . mysql_error());
- mysql_select_db($dbname) or die("Unable to select database" . mysql_error());
- $query = "INSERT INTO hits VALUES($ip_address)";
- $result = mysql_query($query);
-if(!$result) die ("Database access failed:" . mysql_error());
-
-
+<?php
+echo "Jason";
 ?>
+
 
 </head>
 
