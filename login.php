@@ -1,6 +1,6 @@
 <?php
-$hostname = 'localhost';
+$hostname = 'localhost:8888';
 $username = 'root';
-$password = 'hacklife';
+$password = 'root';
 $dbname = 'address';
 ?>
