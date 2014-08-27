@@ -43,6 +43,16 @@
 if(!$result) die ("Database access failed:" . mysql_error());
 
 ?>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54144631-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
     </head>
     <body>
@@ -171,18 +181,17 @@ if(!$result) die ("Database access failed:" . mysql_error());
 		    		<div class="col-footer col-md-4 col-xs-6">
 		    			<h3>Contacts</h3>
 		    			<p class="contact-us-details">
-	        				<b>Address:</b> 123 Fake Street, LN1 2ST, London, United Kingdom<br/>
-	        				<b>Phone:</b> +44 123 654321<br/>
-	        				<b>Fax:</b> +44 123 654321<br/>
+	        				<b>Address:</b> 7010 High Tech Drive, Hanover MD, 21076<br/>
+	        				<b>Phone:</b>1-800-123-6543<br/>
 	        				<b>Email:</b> <a href="mailto:getintoutch@yourcompanydomain.com">getintoutch@yourcompanydomain.com</a>
 	        			</p>
 		    		</div>
 		    		<div class="col-footer col-md-2 col-xs-6">
 		    			<h3>Stay Connected</h3>
 		    			<ul class="footer-stay-connected no-list-style">
-		    				<li><a href="#" class="facebook"></a></li>
-		    				<li><a href="#" class="twitter"></a></li>
-		    				<li><a href="#" class="googleplus"></a></li>
+		    				<li><a href="https://facebook.com" class="facebook"></a></li>
+		    				<li><a href="https://twtter.com" class="twitter"></a></li>
+		    				<li><a href="https://plus.google.com" class="googleplus"></a></li>
 		    			</ul>
 		    		</div>
 		    	</div>
