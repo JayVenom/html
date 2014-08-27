@@ -31,6 +31,11 @@
   ga('send', 'pageview');
 
 </script>
+<script>
+  function validate(form) {
+
+  }
+</script>
     </head>
     <body>
         <!--[if lt IE 7]>
