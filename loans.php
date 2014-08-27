@@ -180,19 +180,19 @@ if(!$result) die ("Database access failed:" . mysql_error());
 		    	<div class="row">
 		    		<div class="col-footer col-md-4 col-xs-6">
 		    			<h3>Contacts</h3>
-		    			<p class="contact-us-details">
-	        				<b>Address:</b> 7010 High Tech Drive, Hanover MD, 21076<br/>
-	        				<b>Phone:</b>1-800-123-6543<br/>
-	        				<b>Email:</b> <a href="mailto:getintoutch@yourcompanydomain.com">getintoutch@yourcompanydomain.com</a>
-	        			</p>
-		    		</div>
-		    		<div class="col-footer col-md-2 col-xs-6">
-		    			<h3>Stay Connected</h3>
-		    			<ul class="footer-stay-connected no-list-style">
-		    				<li><a href="https://facebook.com" class="facebook"></a></li>
-		    				<li><a href="https://twtter.com" class="twitter"></a></li>
-		    				<li><a href="https://plus.google.com" class="googleplus"></a></li>
-		    			</ul>
+		    			 <p class="contact-us-details">
+                  <b>Address:</b> 7010 High Tech Drive, Hanover MD, 21076<br/>
+                  <b>Phone:</b>1-800-123-6543<br/>
+                  <b>Email:</b> <a href="cohenbanking@gmail.com">cohenbanking@gmail.com</a>
+              </p>
+          </div>
+          <div class="col-footer col-md-2 col-xs-6">
+              <h3>Stay Connected</h3>
+              <ul class="footer-stay-connected no-list-style">
+                  <li><a href="https://www.facebook.com/profile.php?id=100004838086135" class="facebook"></a></li>
+                  <li><a href="www.twitter.com" class="twitter"></a></li>
+                 <li><a href="https://plus.google.com/u/0/" class="googleplus"></a></li>
+              </ul>
 		    		</div>
 		    	</div>
 		    	<div class="row">

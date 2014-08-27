@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>mPurpose - Multipurpose Feature Rich Bootstrap Template</title>
+        <title>Login Page</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
@@ -130,20 +130,19 @@
 		    	<div class="row">
 		    		<div class="col-footer col-md-4 col-xs-6">
 		    			<h3>Contacts</h3>
-		    			<p class="contact-us-details">
-	        				<b>Address:</b> 123 Fake Street, LN1 2ST, London, United Kingdom<br/>
-	        				<b>Phone:</b> +44 123 654321<br/>
-	        				<b>Fax:</b> +44 123 654321<br/>
-	        				<b>Email:</b> <a href="mailto:getintoutch@yourcompanydomain.com">getintoutch@yourcompanydomain.com</a>
-	        			</p>
-		    		</div>
-		    		<div class="col-footer col-md-2 col-xs-6">
-		    			<h3>Stay Connected</h3>
-		    			<ul class="footer-stay-connected no-list-style">
-		    				<li><a href="#" class="facebook"></a></li>
-		    				<li><a href="#" class="twitter"></a></li>
-		    				<li><a href="#" class="googleplus"></a></li>
-		    			</ul>
+               <p class="contact-us-details">
+                  <b>Address:</b> 7010 High Tech Drive, Hanover MD, 21076<br/>
+                  <b>Phone:</b>1-800-123-6543<br/>
+                  <b>Email:</b> <a href="cohenbanking@gmail.com">cohenbanking@gmail.com</a>
+              </p>
+          </div>
+          <div class="col-footer col-md-2 col-xs-6">
+              <h3>Stay Connected</h3>
+              <ul class="footer-stay-connected no-list-style">
+                  <li><a href="https://www.facebook.com/profile.php?id=100004838086135" class="facebook"></a></li>
+                 <li><a href="www.twitter.com" class="twitter"></a></li>
+                  <li><a href="https://plus.google.com/u/0/" class="googleplus"></a></li>
+              </ul>
 		    		</div>
 		    	</div>
 		    	<div class="row">
