@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Admin Page</title>
   <link rel="stylesheet" href="css/table.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
 <?php
@@ -17,13 +18,23 @@ $result = mysql_query($sql);
 
 
 while($row = mysql_fetch_array($result)) {
-  echo "<table>";
-  echo "<th>IP_ADDRESS</th>";
+  echo "<div class='container'>";
+  echo "<table class='table table-striped'>";
+  echo "<thead>";
   echo "<tr>";
-  echo "<td>" . $row['ip'] . "</td>"."<br />";
+  echo "<th>IP_Address</th>";
   echo "</tr>";
+  echo "</thead>";
+  echo "<tbody>";
+  echo "<tr>";
+  echo "<td>" . $row['ip'] . "</td>";
+  echo "</tr>";
+  echo "</tbody>";
+  echo "</table>";
+  echo "</div>";
+  echo "</div>";
 }
-echo "</table>";
+echo "";
 
 mysqli_close($con);
 ?>
