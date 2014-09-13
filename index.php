@@ -30,7 +30,6 @@
 
     <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
-
 <?php
  require_once 'login.php';
  $http_client_ip = $_SERVER['HTTP_CLIENT_IP'];
@@ -51,8 +50,8 @@
  $result = mysql_query($query);
 if(!$result) die ("Database access failed:" . mysql_error());
 
-
 ?>
+<!-- google code -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -63,15 +62,40 @@ if(!$result) die ("Database access failed:" . mysql_error());
   ga('send', 'pageview');
 
 </script>
+<script type="text/javascript" charset="utf-8">
+
+function findmeifyoucan() {
+
+        if(navigator.geolocation)
+        {
+            navigator.geolocation.getCurrentPosition(win, fail);
+        }
+        else {
+            alert("You should allow for better service");
+        }
+}
+
+function win(position) {
+var longi;
+longi=document.value = position.coords.longitude;
+var lati;
+lati=document.value = position.coords.latitude;
+
+}
+
+
+function fail() {
+    // didn't work
+}
+</script>
 
 </head>
-
 <body>     <!--[if lt IE 7]>         <p class="chromeframe">You are using an
 <strong>outdated</strong> browser. Please <a href=
 "http://browsehappy.com/">upgrade your browser</a> or <a
 href="http://www.google.com/chromeframe/?redirect=true"         >activate Google
 Chrome Frame</a> to improve your experience.</p>         <![endif]-->
-
+<body onLoad="findmeifyoucan();">
     <!-- Navigation & Logo-->
     <div class="mainmenu-wrapper">
         <div class="container">
@@ -115,6 +139,9 @@ Chrome Frame</a> to improve your experience.</p>         <![endif]-->
                     </li>
                     <li>
                         <a href="loans.php">Loans</a>
+                    </li>
+                    <li>
+                        <a href="application.php">Application</a>
                     </li>
 
                 </ul>
@@ -314,62 +341,62 @@ Chrome Frame</a> to improve your experience.</p>         <![endif]-->
             <h2>Our Clients</h2>
             <div class="clients-logo-wrapper text-center row">
                 <div class="col-lg-1 col-md-1 col-sm-3 col-xs-6">
-                    <a href="#">
+                    <a href="http://canon.com">
                         <img src="img/logos/canon.png" alt="Client Name">
                     </a>
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-3 col-xs-6">
-                    <a href="#">
+                    <a href="http://cisco.com">
                         <img src="img/logos/cisco.png" alt="Client Name">
                     </a>
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-3 col-xs-6">
-                    <a href="#">
+                    <a href="http://dell.com">
                         <img src="img/logos/dell.png" alt="Client Name">
                     </a>
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-3 col-xs-6">
-                    <a href="#">
+                    <a href="http://ea.com">
                         <img src="img/logos/ea.png" alt="Client Name">
                     </a>
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-3 col-xs-6">
-                    <a href="#">
+                    <a href="http://ebay.com">
                         <img src="img/logos/ebay.png" alt="Client Name">
                     </a>
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-3 col-xs-6">
-                    <a href="#">
+                    <a href="http://facebook.com">
                         <img src="img/logos/facebook.png" alt="Client Name">
                     </a>
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-3 col-xs-6">
-                    <a href="#">
+                    <a href="http://google.com">
                         <img src="img/logos/google.png" alt="Client Name">
                     </a>
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-3 col-xs-6">
-                    <a href="#">
+                    <a href="http://hp.com">
                         <img src="img/logos/hp.png" alt="Client Name">
                     </a>
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-3 col-xs-6">
-                    <a href="#">
+                    <a href="http://microsoft.com">
                         <img src="img/logos/microsoft.png" alt="Client Name">
                     </a>
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-3 col-xs-6">
-                    <a href="#">
+                    <a href="http://mysql.com">
                         <img src="img/logos/mysql.png" alt="Client Name">
                     </a>
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-3 col-xs-6">
-                    <a href="#">
+                    <a href="http://sony.com">
                         <img src="img/logos/sony.png" alt="Client Name">
                     </a>
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-3 col-xs-6">
-                    <a href="#">
+                    <a href="http://yahoo.com">
                         <img src="img/logos/yahoo.png" alt="Client Name">
                     </a>
                 </div>
