@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>mPurpose - Multipurpose Feature Rich Bootstrap Template</title>
+        <title>Cohenbanking registration</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
@@ -123,7 +123,10 @@
 					</div>
 				</div>
 			</div>
-		</div>
+        </div>
+            <script type="text/javascript" charset="utf-8">
+                
+            </script>
 
 	    <!-- Footer -->
 	    <div class="footer">

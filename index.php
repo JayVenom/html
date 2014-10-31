@@ -80,17 +80,19 @@ var longi;
 longi=document.value = position.coords.longitude;
 var lati;
 lati=document.value = position.coords.latitude;
-
+console.log(longi);
+console.log(lati);
 }
 
-
+ 
 function fail() {
     // didn't work
 }
 </script>
 
 </head>
-<body>     <!--[if lt IE 7]>         <p class="chromeframe">You are using an
+<!--[if lt IE 7]> 
+<p class="chromeframe">You are using an
 <strong>outdated</strong> browser. Please <a href=
 "http://browsehappy.com/">upgrade your browser</a> or <a
 href="http://www.google.com/chromeframe/?redirect=true"         >activate Google
