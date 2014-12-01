@@ -84,14 +84,14 @@ console.log(longi);
 console.log(lati);
 }
 
- 
+
 function fail() {
     // didn't work
 }
 </script>
 
 </head>
-<!--[if lt IE 7]> 
+<!--[if lt IE 7]>
 <p class="chromeframe">You are using an
 <strong>outdated</strong> browser. Please <a href=
 "http://browsehappy.com/">upgrade your browser</a> or <a
